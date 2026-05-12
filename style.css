@@ -1,0 +1,848 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+/* section 1 styles starts */
+#section1{
+     /* border: 2px solid red; */
+     position: relative;
+     /* z-index: 3; */
+}
+#maindiv{
+     /* border: 2px solid gainsboro; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     /* position: absolute;
+     z-index: 5; */
+     overflow: hidden;
+}
+#headings{
+     /* border: 2px solid rebeccapurple; */
+     padding: 30px;
+     font-family: sans-serif;
+     font-size: 30px;
+     align-items: center;
+     gap: 10px;
+     position: absolute;
+     color: white;
+}
+#headings>p{
+     font-family: sans-serif;
+     font-size: 25px;
+     color: white;
+}
+#img{
+     display: flex;
+     flex-direction: row;
+     padding: 20px;
+     gap: 20px;
+}
+
+/* section 1 styles ends */
+
+
+/* section 2 styles starts */
+#section2{
+     /* border: 2px solid red; */
+     padding: 0px;
+     
+}
+#section2>div{
+     /* border: 2px solid red; */
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+     gap: 250px;
+     padding: 300px;
+     padding-top: 150px;
+     padding-bottom: 100px;
+     /* border: 2px solid rgb(43, 0, 128); */
+     position: relative;
+}
+.curve{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     gap: 20px;
+     position: relative;
+     
+     
+}
+#betterfood{
+     border: 2px solid green;
+     padding: 30px;
+     position: relative;
+}
+#section2h1{
+     font-family: sans-serif;
+     font-size: 50px; 
+     color: rgb(234, 56, 56);
+     padding-bottom: 10px;
+}
+#section2para{
+     font-family: sans-serif;
+     font-size: 20px;
+     line-height: 25px;
+     color: rgb(138, 136, 136);
+}
+#maincurve{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 0px;
+     gap: 20px;
+     border: 2px solid rgb(0, 36, 128);
+     border-radius: 40px;
+     border-color: rgb(208, 206, 206);
+     border-width: 5px;
+}
+#maincurve{
+      color: rgb(83, 82, 82);
+      font-size: 30px;
+}
+.maincurvepara{
+       font-size: 20px;
+}
+#lines{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 750px;
+       padding-top: 10px;
+       width: 100%;
+       position: absolute;
+}
+#lines>img{
+        height: 600px;
+        width: 350px;
+}
+#burgur{
+        position: absolute;
+        transform: translate(-150%,50%);   
+        /* right: 20px;
+        bottom: 20px;
+        position: absolute; */
+}
+#leaf{
+        position: absolute;
+        transform: translate(-350%,-120%);
+        /* right: 20px;
+        bottom: 20px;
+        position: absolute; */
+}
+#momos{
+        position: absolute;
+        transform: translate(190%,-30%);
+        /* right: 20px;
+        bottom: 20px;
+        position: absolute; */
+}
+#pizza{
+        position: absolute;
+        transform: translate(150%,110%);
+        /* right: 20px;
+        bottom: 20px;
+        position: absolute; */
+}
+#tomato{
+        position: absolute;
+        transform: translate(-950%,900%);
+        /* right: 20px;
+        bottom: 20px;
+        position: absolute; */
+}
+#tomato1{
+        position: absolute;
+        transform: translate(1100%,400%);
+        /* right: 20px;
+        bottom: 20px;
+        position: absolute; */
+}
+/* section 2 styles ends */
+
+
+/* section 3 styles starts */
+#section3{
+        /* border: 2px solid red; */
+        padding: 0px;
+        background: linear-gradient(rgb(249, 188, 188),white);
+}
+#section3>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+}
+#section3>div>div{
+         /* border: 2px solid orchid; */
+         padding:10px;
+         padding-top: 30px;
+}
+#features{
+        /* border: 2px solid goldenrod; */
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 24px;
+        color: rgb(241, 57, 57);
+        padding-top: 60px;      
+}
+#features>p{
+        font-family: sans-serif;
+        font-size: 22px;
+        color: rgb(135, 134, 134);
+        text-align: center;
+        padding-top: 20px;
+}
+
+#waiting{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 50px;
+        padding-bottom: 0px;
+        /* background-color: white; */
+}
+#healthy>div{
+        border: 2px solid ;
+        border-radius: 20px;
+        border-color: rgb(237, 236, 236);
+        background-color: white;
+}
+#healthy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px;
+}
+#healthy p{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgb(64, 63, 63);
+        text-align: center;
+}
+
+#train>div{
+        border: 2px solid ;
+        border-radius: 20px;
+         border-radius: 20px;
+        border-color: rgb(237, 236, 236);
+        background-color: white;
+}
+#train{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+        
+}
+#train p{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgb(64, 63, 63);
+        text-align: center;
+}
+#maggie{
+       transform: translate(0%,10%);
+}
+#offers{
+       transform: translate(0%,0%);
+}
+#food{
+       transform: translate(12%,5%);
+}
+#collection{
+      transform: translate(5%,-5%);
+}
+
+#mobile{
+        /* border: 2px solid greenyellow; */
+        position: relative;
+        overflow: hidden;
+        width: fit-content;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        height: 450px;
+        /* background-color: white; */
+}
+#calender{
+        border: 1px solid rgb(213, 211, 211);
+        transform: translate(30%,-120%);
+        width: fit-content;
+        border-radius: 18px;
+        border-width: 2px;
+        background-color: white;
+        
+}
+#calender p{
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgb(45, 44, 44);
+        transform: translate(30%);
+}
+#banana{
+        transform: translate(-10%,20%);
+}
+#vegmode{
+        transform: translate(-20%,10%);
+}
+#party{
+        transform: translate(10%,15%);
+}
+#gift{
+        transform: translate(-2%,0%);
+}
+
+/* section 3 styles ends */
+
+
+/* section 4 styles starts */           /*-------------------doubt----------------------------*/
+#section4{
+       /* border: 2px solid red; */
+       padding: 20px;
+       padding-bottom: 200px;
+       background-color: rgb(0, 0, 0);
+}
+
+
+
+/* #section4{
+    width: 100%;
+    height: 600px;
+    background: black;
+    position: relative;
+    overflow: hidden;
+} */
+ /* Top Curve */
+/* #section4::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: -5%;
+    width: 110%;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+} */
+/* Bottom Curve */
+/* #section4::after {
+    content: "";
+    position: absolute;
+    bottom: -80px;
+    left: -5%;
+    width: 110%;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+} */
+
+
+#section4>div{
+       /* border: 2px solid red; */
+       padding: 20px;
+       padding-top: 40px;
+}
+#column{
+       /* border: 2px solid red; */
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+#freedelivery{
+       /* border: 2px solid red; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 50px;
+}
+#freedelivery>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+
+#gold{
+        /* border: 2px solid red; */
+        padding: 20px;
+        padding-top: 40px;
+}
+#gold div>img{
+        /* border: 2px solid red; */
+        padding: 20px;
+}
+#gold p{
+       /* border: 2px solid red; */
+       font-family: sans-serif;
+       font-size: 30px;
+       text-align: center;
+       padding: 20px;
+       color: rgb(224, 167, 21);
+}
+#benefits{
+       /* border: 2px solid red; */
+       font-family: sans-serif;
+       font-size: 25px;
+       text-align: center;
+       padding: 20px;
+       color: white;
+}
+#benefits>i{
+       color: rgb(230, 174, 32);
+}
+#freedelivery h2{
+        color: white;
+        font-size: 30px;
+}
+#freedelivery p{
+        color: rgb(230, 174, 32);
+        font-size: 25px;
+}
+#smallcoin{
+        position: absolute;
+        transform: translate(10%,-600%);
+}
+#bigcoin{
+        position: absolute;
+        transform: translate(850%,-450%);
+}
+#smalldesign{
+       position: absolute;
+       transform: translate(-5%,-40%);
+}
+#bigdesign{ 
+       position: absolute;
+       transform: translate(130%,-50%);
+}
+
+
+/* section 4 styles ends */
+
+
+
+/* section 5 styles starts */
+#section5{
+         /* border: 2px solid red; */
+         padding: 20px;
+
+}
+#section5>div{
+         /* border: 2px solid paleturquoise; */
+         padding: 20px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+}
+
+#eternal{
+         /* border: 2px solid rgb(0, 255, 85); */
+         padding: 30px;
+         padding-bottom: 50px;
+}
+#eternal img{
+         border: 2px solid gray;
+         padding: 30px;
+         padding-left: 50px;
+         padding-right: 60px;
+         padding-bottom: 70px;
+         position: relative;
+         border-top: none;
+         border-left: none;
+         border-right: none;
+}
+#eternal p{
+          padding: 20px;
+          text-align: center;
+          font-family: sans-serif;
+          font-size: 30px;
+          color: rgb(136, 134, 134);
+          position: absolute;
+          transform: translate(15%,-57%);
+          background-color: white;
+}
+
+
+#platform{
+         /* border: 2px solid rgb(234, 255, 0); */
+         padding: 40px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 70px;
+         
+}
+#platform>div>a{
+          text-decoration:none;
+          text-align: center;
+}
+
+#zomato{
+         border: 2px solid;
+         padding: 40px;
+         border-color: rgb(241, 154, 154);
+         border-radius: 14px;
+         border-width: 4px;
+         background: linear-gradient(180deg,rgb(255, 186, 186),white);
+         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+         transition: 0.4s ;
+}
+#zomato:hover{
+         transform:scale(1.2);
+}
+#zomato h2{
+         font-family: sans-serif;
+         font-size: 30px;
+         color: rgb(45, 45, 45);
+         padding-top: 20px;
+         padding-bottom: 20px;
+}
+#zomato p{
+         font-family: sans-serif;
+         font-size: 20px;
+         padding-bottom: 20px;
+         color: rgb(97, 97, 97);
+}
+/* #zomato img{
+         border: 2px solid red;
+         border-radius: 14px;
+         
+         font-size: 30px;
+} */
+
+#blinkit{
+         border: 2px solid rgb(0, 13, 255);
+         padding: 40px;
+         padding-bottom: 19px;
+         border-color: rgb(247, 247, 153);
+         border-radius: 14px;
+         border-width: 4px;
+         background: linear-gradient(180deg,rgb(247, 247, 179),white);
+         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+         transition: 0.4s ;
+}
+#blinkit:hover{
+         transform:scale(1.2);
+}
+#blinkit h2{
+         font-family: sans-serif;
+         font-size: 30px;
+         color: rgb(45, 45, 45);
+         padding-top: 20px;
+         padding-bottom: 20px;
+}
+#blinkit p{
+         font-family: sans-serif;
+         font-size: 20px;
+         padding-bottom: 20px;
+         color: rgb(97, 97, 97);
+}
+
+/* #blinkit img{
+         border: 2px solid red;
+         border-radius: 14px;
+         
+         font-size: 30px;
+} */
+
+#district{
+         border: 2px solid rgb(0, 13, 255);
+         padding: 40px;
+         border-color: rgb(153, 153, 252);
+         border-radius: 14px;
+         border-width: 4px;
+         background: linear-gradient(180deg,rgb(164, 164, 253),white);
+         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+         transition: 0.4s ;
+}
+#district:hover{
+         transform:scale(1.2);
+}
+#district h2{
+         font-family: sans-serif;
+         font-size: 30px;
+         color: rgb(45, 45, 45);
+         padding-top: 20px;
+         padding-bottom: 20px;
+}
+#district p{
+         font-family: sans-serif;
+         font-size: 20px;
+         padding-bottom: 20px;
+         color: rgb(97, 97, 97);
+}
+
+#hyperpure{
+         border: 2px solid rgb(0, 13, 255);
+         padding: 40px;
+         border-color: rgb(255, 161, 161);
+         border-radius: 14px;
+         border-width: 4px;
+         background: linear-gradient(180deg,rgb(255, 186, 186),white);
+         box-shadow: 0px 8px 20px rgba(96, 95, 95, 0.15);
+         transition: 0.4s ;
+}
+#hyperpure:hover{
+         transform:scale(1.2);
+}
+#hyperpure h2{
+         font-family: sans-serif;
+         font-size: 30px;
+         color: rgb(45, 45, 45);
+         padding-top: 20px;
+         padding-bottom: 20px;
+}
+#hyperpure p{
+         font-family: sans-serif;
+         font-size: 20px;
+         padding-bottom: 20px;
+         color: rgb(97, 97, 97);
+}
+
+.Checkout{
+          color: black;
+}
+#platform img{
+           padding-left: 44px;
+}
+#hyperpure img{
+           padding-left: 60px;
+}
+#district img{
+           padding-left: 40px;
+           
+}
+
+
+#downloadnow{
+         border: 2px solid orangered;
+         border-color: rgb(241, 139, 139);
+         border-width: 4px;
+         overflow: hidden;
+         border-radius: 14px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 120px;
+         padding: 20px;
+         padding-bottom: 0px;
+         width: fit-content;
+}
+#downloadnow>div{
+          /* border: 2px solid red; */
+          padding: 30px;      
+}
+#downloadnowh1{
+          font-family: sans-serif;
+          font-size: 40px;
+}
+#downloadnowpara{
+         font-family: sans-serif;
+          font-size: 28px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          color: grey;
+}
+#downloadnowimg{
+          /* border: 2px solid darkgreen; */
+          padding: 20px;
+}
+#downloadnowimg>img{
+          /* border: 2px solid darkgreen; */
+          padding: 20px;
+}
+#mobile1{
+         transform: translate(0%,0%);
+}
+#scanner{
+         position: absolute;
+         transform: translate(50%,-120%);
+         text-align: center;
+
+}
+#scanner p{
+         font-family: sans-serif;
+         font-size: 20px;
+         color: grey;
+         /* text-align: center; */
+}
+#downloadnow{
+         background: linear-gradient(white,rgb(244, 148, 148));
+}
+#mobilediv{
+         /* border: 2px solid red; */
+         transform: translate(0%,7.5%);
+}
+/* #mobilediv{
+        border: 2px solid red;
+} */
+/* section 5 styles ends */
+
+
+/* footer styles starts */
+#footer{
+          /* border: 2px solid red; */
+          padding: 10px;
+          background-color: black;
+        
+}
+#footer>div{
+          /* border: 2px solid red; */
+          padding: 5px;
+}
+#footer li{
+           list-style-type: none;
+}
+#ulflex{
+           border: 2px solid gray;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 50px;
+           padding: 120px;
+           padding-top: 25px;
+           padding-bottom: 25px;
+           border-top: none;
+           border-left: none;
+           border-right: none;
+
+}
+#ulflex>ul{
+           
+           /* border: 2px solid red; */
+           font-family: sans-serif;
+           font-size: 20px;
+           line-height: 30px;
+
+}
+.size{
+           /* border: 2px solid red; */
+           padding-bottom: 10px;
+           color: rgb(238, 231, 231);
+           font-family: sans-serif;
+           font-size: 25px;
+           line-height: 30px;
+}
+.colorchange{
+           /* border: 2px solid red; */
+           padding-bottom: 10px;
+           color: rgb(152, 147, 147);
+           
+}
+.colorchange:hover{
+           color: white;
+}
+#zomatologo{
+           padding-top: 10px;
+           padding-left: 160px;
+           padding-bottom: 10px;
+}
+.up{
+           transform: translate(10%,-37%);
+}
+.up1{
+           transform: translate(10%,-40%);
+}
+#down{
+          padding-top: 20px;
+}
+#socialmedialists{
+           /* border: 1px solid rebeccapurple; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+}
+#facebook{
+          transform: translate(-20%,0%);
+}
+#youtube{
+          transform: translate(-40%,0%);
+}#xspreads{
+          transform: translate(-60%,0%);
+}
+#apple{
+         padding-top: 10px;
+         padding-bottom: 6px;
+}
+
+#footerlast>p{
+          padding:10px;
+          padding-left: 165px;
+          font-family: sans-serif;
+          font-size: 5x;
+          color: rgb(152, 147, 147);
+}
+
+
+@media screen and (max-width:768px){
+
+#platform{
+    flex-direction:column;
+}
+
+#waiting{
+    flex-direction:column;
+}
+
+#freedelivery{
+    flex-direction:column;
+}
+
+#maincurve{
+    flex-direction:column;
+    padding:20px;
+}
+
+#ulflex{
+    flex-direction:column;
+    padding:30px;
+}
+
+#downloadnow{
+    flex-direction:column;
+    gap:20px;
+}
+
+#headings{
+    font-size:20px;
+    text-align:center;
+}
+
+#headings p{
+    font-size:16px;
+}
+
+#section2h1{
+    font-size:35px;
+}
+
+#featuresh1{
+    font-size:35px;
+}
+
+#downloadnowh1{
+    font-size:30px;
+}
+
+}
+
+video{
+   width:100%;
+   height:auto;
+   object-fit:cover;
+}
+
+/* footer styles ends */
+
+
